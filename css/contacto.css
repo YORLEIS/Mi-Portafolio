@@ -1,0 +1,134 @@
+section.formcontato{
+    width: 100%;
+    background-color: #EAF2FD;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.formcontato__contacto {
+    width: 80%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+   margin-top: 30px;
+
+}
+.formcontato__img{
+    width: auto;
+    height: 700px;
+}
+
+.formcontato__text {
+    flex: 1; 
+    padding: 20px; 
+
+   align-items: center;
+ 
+}
+
+.formcontato__form {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px; 
+   gap: 10px;
+  height: 100%;
+}
+
+
+.formcontato__title {
+    font-weight: bold; 
+    font-size: 24px; 
+    padding: 10px;
+
+      
+}
+
+.formcontato__subtext {
+    font-size: 18px; 
+
+    padding: 10px;
+}
+.formcontato__input,
+.formcontato__textarea {
+    margin-bottom: 10px; 
+     height: 100%; 
+     width: 100%;
+    border: 1px solid white; 
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.formcontato__botao {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 150px;
+    border-radius: 6px;
+}
+
+.formcontato__img {
+    display: none; 
+    border-radius: 10px;
+  
+}
+
+.formcontato__form .msj-error{
+    color: red;
+    font-size: 15px;
+    font-style: italic;
+}
+.formcontato__input:hover {
+    border-color: rgb(93, 159, 234); 
+    background-color: #f0f0f0; 
+    color: #333; 
+}
+textarea:hover {
+    border-color: rgb(93, 159, 234); 
+    background-color: #f0f0f0; 
+    color: #333; 
+}
+
+
+.formcontato__botao:hover {
+    background-color: #0056b3;
+    color: white; /
+}
+
+
+@media (min-width: 1024px) {
+    .formcontato{
+    display: flex;
+        justify-content: space-between;
+    
+    }
+    .formcontato__img {
+        display: block; 
+    }
+    .formcontato__form {
+    
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+      
+    }
+    .formcontato{
+        justify-content: center;
+    
+    }
+    .formcontato__input,
+    .formcontato__textarea {
+    margin-bottom: 15px; 
+    padding: 15px; 
+     height: 100%; 
+     
+    border: 1px solid white; 
+}
+
+   
+  }

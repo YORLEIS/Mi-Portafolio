@@ -1,0 +1,159 @@
+/* Sección Title */
+
+.title__subsection{
+    font-size: 1rem;
+    margin: 10px 0;
+   line-height: 1.7em;
+
+}
+.title__div{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.title__subsection{
+    font-size: 20px ;
+}
+.title{
+    text-align: center;
+  
+}
+.title__profile{
+ max-width: 350px;
+   border-radius: 50%;
+   border: 8px solid #fff;
+}
+
+.title__bio{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.title__network{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  gap: 15px;
+    font-size: 16px;
+   
+    font-weight: 500;
+}
+.title__network__item a{
+color: black;
+}
+.title{
+    
+    background:linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 50%, #ffffff 50%, #ffffff 100% );
+}
+
+.title__profile{
+    margin: 35px 0;
+    height: 270px;
+    width: 270px;
+}
+
+.title__network{
+    display: inline-flex;
+    list-style: none;
+}
+
+.title__network .icon {
+    position: relative;
+    background: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+
+
+.title__network .icon i {
+    color: #000; /* O el color que prefieras para tus íconos */
+    visibility: visible; 
+}
+
+.title__network .social{
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #fff;
+    color: #000000;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+
+
+.title__network .social::before{
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+
+.title__network  .icon:hover .social{
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.title__network  .icon:hover span ,
+.title__network  .icon:hover .social{
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.1) ;
+}
+
+.title__network  .linkedin:hover,
+.title__network  .linkedin:hover .social,
+.title__network  .linkedin:hover .social::before
+{
+    background: #1877f2;
+    color: #fff;
+
+}
+
+.title__network  .cv:hover,
+.title__network  .cv:hover .social,
+.title__network  .cv:hover .social::before
+{
+    background: rgb(192, 29, 192);
+    color: #fff;
+
+}
+
+.title__network  .instagram:hover,
+.title__network  .instagram:hover .social,
+.title__network  .instagram:hover .social::before
+{
+    background: #e4405f;
+    color: #fff;
+
+}
+
+.title__network  .github:hover,
+.title__network  .github:hover .social,
+.title__network  .github:hover .social::before
+{
+    background:#515b66;
+    color: #fff
+
+}
+

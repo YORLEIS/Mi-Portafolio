@@ -1,0 +1,19 @@
+
+/*footeer*/
+section.footer{
+  padding-top: 10px;
+   width: 100%;
+   background-color: #1f2038;
+   color: white;
+}
+.footer__rodape{
+  
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+ padding: 10px;
+   
+}
+.footer__rodape p{
+padding: 5px;
+}

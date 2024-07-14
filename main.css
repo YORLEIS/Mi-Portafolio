@@ -1,0 +1,51 @@
+@import url("css/reset.css");
+@import url("css/menu.css");
+@import url("css/profile.css");
+@import url("css/about.css");
+@import url("css/skills.css");
+@import url("css/Hobbies.css");
+@import url("css/formacion.css");
+@import url("css/experiencia.css");
+@import url("css/contacto.css");
+@import url("css/footer.css");
+:root{
+   --cor-de-fundo: #dde9f2;
+   
+}
+
+body {  
+    box-sizing: border-box;
+    color: #1f2038;
+    font-family: 'Poppins', 'Sans-serif';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
